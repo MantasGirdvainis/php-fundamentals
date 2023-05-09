@@ -69,6 +69,7 @@ $firstPost2 = !empty($posts) ? $posts[0] : null;
 
 // Galim nebenaudoti empty() vietoj to naudojam ??. Jeigu $post[0] reiksme yra true
 //tai ja ir priskirst kintamajam, jeigu false tada priskirst null arba kita ka nurodysim.
+//test del github
 
 $firstPost3 = $posts[0] ?? null;
 $firstPost4 = $posts[0] ?? 'antra reiksmes';
