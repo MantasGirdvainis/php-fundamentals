@@ -38,6 +38,7 @@ class User {
   }
 
   // Destructor is called when an object is destroyed or the end of the script.
+    // Destructor is called when an object is destroyed or the end of the script.
   function __destruct() {
     echo "The user name is {$this->name}.";
   }
